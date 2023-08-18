@@ -2,24 +2,12 @@
 #include <Arduino.h>
 void setup() {
   // Serial.begin(921600);
-  // Serial1.begin(921600, SERIAL_8N1, 18, 17);//band
-  //  Serial1.begin(921600, SERIAL_8N1, 16, 15);//car_atr
+  // Serial1.begin(921600, SERIAL_8N1, 18, 17);// 
+  //  Serial1.begin(921600, SERIAL_8N1, 16, 15);// 
   Serial.begin(115200);
-//   Serial1.begin(9600, SERIAL_8N1, 15, 16);//car_atr
-//   uint8_t cmd_buff[]={0xff,0xaa,0,0,0};
-//   uint8_t cmd_buff2[]={0xff,0xaa,0x04,6,0};
-//    uint8_t cmd_buff3[]={0xff,0xaa,0x69,0x88,0xb5};
- 
-//  Serial1.write(cmd_buff3,5);
-//   delay(10);
-//   Serial1.write(cmd_buff2,5);
-//   delay(10);
-//   Serial1.write(cmd_buff3,5);
-//   Serial1.write(cmd_buff,5);
-//   delay(10);
-  Serial1.begin(115200, SERIAL_8N1,18,17);//car_atr
-  Serial2.begin(115200, SERIAL_8N1,41,42);//band
- 
+//   Serial1.begin(9600, SERIAL_8N1, 15, 16);// 
+  // Serial1.begin(115200, SERIAL_8N1,18,17);// 
+  // Serial2.begin(115200, SERIAL_8N1,41,42);// 
 }
 
 int s1_buff_len, s0_buff_len;
