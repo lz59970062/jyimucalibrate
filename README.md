@@ -4,12 +4,12 @@ a serial port transmission program for use the  upper-computer to calibrate the 
 ## key steps
 
 make sure your esp32 board are connecting well with your jyimu,and and spcific the esp32 module like below
-'''
+···
 [env:esp32-s3-devkitc-1]
 platform = espressif32
 board = esp32-s3-devkitc-1
 
-'''
+···
 if not change this in the ini file 
 
 make sure you config the tx/rx and initialized them 
